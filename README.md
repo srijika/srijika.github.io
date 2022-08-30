@@ -1,1 +1,0 @@
-# srijika.github.io

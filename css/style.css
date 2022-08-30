@@ -1,310 +1,87 @@
-* {
-    margin: 0px;
-    padding: 0px;
-
-    /* #e8fcbd;
-    #2a3d57
-    #afee20;
-    #fefefe;
-     */
-}
-
-section {
-    margin: 10px 0;
-    padding: 30px 0;
-}
-.top_header {
-    width: auto;
-    height: 50px;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 18px;
-    background-color: #e8fcbd;
-    color: #2a3d57
-}
-.navbar {
-    width: auto;
-    height: 80px;
-    position: sticky;
-    top: 0px;
+ .social_icons{
     list-style-type: none;
-    font-size: 16px;
-    background-color: black;
 }
-.logo {
-    float: left;
-}
-.details {
-    font-size: 16px;
-    color: white;
+
+.social_icons li {
     display: inline-block;
-    text-align: center;
-    padding-top: 30px;
-    padding-left: 40px;
-    padding-right: 30px;
-    align-items: center;
-    justify-content: center;
-}
-.details>a {
-    color: #fff;
-    text-decoration: none;
-}
-.login_btn {
-    color: #fff;
-    background-color: #afee20;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    float: right;
-    margin: 10px 10px;
-}
-.btn-section {
-    margin: 100px 0 0 0;
-}
-.btn-primary {
-    color: #fff;
-    background-color: #afee20;
-    padding: 8px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-.login_btn:hover {
-    background-color: black;
     color: white;
 }
-.sign_btn {
-    color: black;
-    background-color: #fefefe;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    float: right;
-    margin-top: 10px;
+.header_color {
+    background-color: black;
 }
-.sign_btn:hover {
+.contacts{
+    color: white;
+}
+.navbar_color{
+    background-color: bisque;
+}
+.prev_icon{
+    color: black;
     background-color: white;
-    color: #afee20;
 }
-.section {
-    width: auto;
-    height: 424px;
-    /* z-index: auto; */
-    /* position: static; */
-    /* top: 30px; */
-    background-repeat: no-repeat;
-    background-image: url(../image/kurti_banner2.jpg);
-}
-.section2 {
-    text-align: left;
-    height: 424px;
-    display: table-cell;
-    vertical-align: middle;
-    padding-top: 10px;
-}
-.section2 h1 {
-    font-size: 35px;
-    margin-left: 20px;
-    color: #2a3d57;
-    /* background-color: #afee20; */
-}
-/* .descrption {
-    text-align: left;
-    display: block;
-} */
-/* .descrption>h1 {
-    text-align: left;
-    display: table-cell;
-    vertical-align: middle;
-} */
-/* .img {
-    display: block;
-    width: auto;
-    height: 200px;
-    z-index: auto;
-    margin-top: 0;
-    margin-right: auto;
-    text-align: center;
-    float: right;
-}  */
-.box {
-    width: auto;
-    height: 40px;
-    font-size: 16px;
-    text-align: center;
-    /* padding-top: 10px; */
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline;
-    color: black;
-    background-color: #536176;
-}
-.products {
-    display: inline-block;
-    margin: 10px 0;
-    padding-bottom: 10px;
-}
-.view_btn_box {
-    text-align: center;
-    margin: 56px 0 0 0;
-}
-.view_btn {
-    color: black;
-    background-color: yellow;
-    padding: 15px 30px;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-.main_heading {
-    text-align: center;
-    margin: 10px 0 30px 0;
-    padding-top: 5px 0 0 0;
-    font-size: 50px;
-    font-weight: bold;
-    color: #2a3d57;
-    font-family: 'Qwitcher Grypen', cursive;;
-}
-/* .main_heading:hover {
-    background-color: #afee20;
-    color: white;
-} */
-.gallery {
-    /* padding-top: 40px; */
-    margin: 5px;
-    border: 1px solid #ccc;
-    display: inline-block;
-    margin-left: 40px;
-}
-.desc {
-    font-size: 16px;
-    font-family: 'Judson', serif;
-    text-align: center;
-    text-decoration: double;
-    color: aliceblue;
-    background-color: #536176;
-}
-.big_box3 {
-    width: auto;
-    height: 400px;
-    padding-left: 10px;
-    background-color: #e8fcbd;
-}
-.main_heading2 {
-    text-align: center;
-    padding: 10px 0;
-    font-size: 50px;
-    font-weight: bold;
-    text-decoration: none;
-    font-family: 'Qwitcher Grypen', cursive;
-    color: #2a3d57;
-}
-.Brands {
-    display: inline-block;
-    margin: 20px 20;
-    /* padding-top: px 0 0 0; */
 
-    /* border: 5px solid #ccc; */
+.heading{
+    text-align: center;
+    font-size: 36px;
+    color: darkslategray;
+    font-family: 'Italianno', cursive; 
+    font-weight: bold;
+}
+.sweet-title{
+    font-size: 18px;
+    text-align:left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkslategray;
+    font-weight: bold;
+}
+.container2{
+    background-color: lavenderblush;
+}
+.img-top{
+    border-radius: 0%;
+    
+}
 
-    /* border-radius: 40%; */
+.card-body{
+    background-color: bisque;
 }
-.gallery2 {
-    margin: 8px;
-    /* border: 5px solid black; */
-    display: inline-block;
-    margin-left: 80px;
+.title{
+    font-size: 52px;
+    color: lightcoral;
+    font-family: 'Italianno', cursive;
+   
 }
-.new_product_img {
+.text{
+    font-size: 42px;
+    color: black;
+    font-family: 'Italianno', cursive;
+}
+.img-top-3{
     border-radius: 50%;
 }
-.big5 {
-    width: auto;
-    height: 400px;
-    background-color:white;
-    padding: 20px;
-   
-    /* position: absolute;
-    top: 30px;
-    left: 30px; */
+
+.container-fluid3{
+    background-color:black;
 }
-.mini_box {
-    width: auto;
-    height: 40px;
-    padding-bottom: 15px;
-    background-color:white;
- }
+.mater{
     
-.main_heading3{
-    font-size: 50px;
-    color: #2a3d57;
-    text-align: center;
-    font-family: 'Qwitcher Grypen', cursive;
-    font-weight: bold;
-} 
-.main_part {
-    width: 500px;
-    height: 400px;
-   
-   
-}
-.box-content{
-    width: auto;
- 
-}
- .last_heading {
-    font-size: 30px;
+    font-size: 35px;
     color: white;
-    text-align: center;
-    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Italianno', cursive;
 }
-.head6 {
-    font-size: 27px;
-    font-family: 'Qwitcher Grypen', cursive;
-    padding-left: 2px;
-    color: black;
+.info{
+    font-size: 16px;
+    color: white;
+    text-align: right;
+    padding-right: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.description{
 
-.box9 {
-   
-    width: 300px;
-    
-   
-}
-.photoss{
-    display: inline;
+    font-family: 'Italianno', cursive;
+    font-size: 36px;
 
 }
-footer{
-    width: auto;
-    font-size: 20px;
-    background-color:#e8fcbd;
-    text-align: center;
-    color: #2a3d57;
-    padding: 10px;
-    
+.about_me{
+    background-color: bisque;
 }
-
-.about_us{
-
-    display: flex;
-    justify-content: space-between;
-   
-
-}
-.about_us_heading{
-    text-align: center;
-    font-size: 42px;
-    font-family: 'Qwitcher Grypen', cursive;
-}
-
-.about_detail{
-
-   height: 300px;
-   width: 600px;
-   margin: 20px;
-   font-size: 27px;
-   font-family: 'Qwitcher Grypen', cursive;
-    
-
-}
-
-
-
-    
