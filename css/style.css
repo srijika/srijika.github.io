@@ -1,87 +1,54 @@
- .social_icons{
-    list-style-type: none;
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-
-.social_icons li {
-    display: inline-block;
-    color: white;
+/* #b6cea2 */
+/* #296b4f */
+/* #58914a */
+/* #637588 */
+/* #1d5ca8 */
+/* #bbd768 */
+.container-fluid_box{
+    background-color: #296b4f;
 }
-.header_color {
-    background-color: black;
-}
-.contacts{
-    color: white;
-}
-.navbar_color{
-    background-color: bisque;
-}
-.prev_icon{
-    color: black;
-    background-color: white;
-}
-
 .heading{
-    text-align: center;
     font-size: 36px;
-    color: darkslategray;
-    font-family: 'Italianno', cursive; 
-    font-weight: bold;
+    font-family: 'Roboto';
 }
-.sweet-title{
-    font-size: 18px;
-    text-align:left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: darkslategray;
-    font-weight: bold;
+.item-name{
+    font-size: 22px;
 }
-.container2{
-    background-color: lavenderblush;
+.container-fluid_box2{
+    background-color: #b6cea2;
 }
-.img-top{
-    border-radius: 0%;
+.text_title{
+    font-size: 28px;
     
-}
-
-.card-body{
-    background-color: bisque;
+    font-family: 'roboto';
 }
 .title{
-    font-size: 52px;
-    color: lightcoral;
+    font-size: 50px;
     font-family: 'Italianno', cursive;
-   
+    
 }
-.text{
-    font-size: 42px;
-    color: black;
-    font-family: 'Italianno', cursive;
-}
-.img-top-3{
-    border-radius: 50%;
-}
-
-.container-fluid3{
-    background-color:black;
+/* .description{
+    font-size: 25px;
+    font-family: 'roboto';
+    
+} */
+.container-fluid_box3{
+    background-color: #637588;
 }
 .mater{
+    font-size: 24px;
+    font-family: 'roboto';
+    text-align: right;
+    padding-right: 60px;
     
-    font-size: 35px;
-    color: white;
-    font-family: 'Italianno', cursive;
 }
 .info{
-    font-size: 16px;
-    color: white;
+    font-size: 24px;
+    font-family: 'roboto';
     text-align: right;
-    padding-right: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.description{
-
-    font-family: 'Italianno', cursive;
-    font-size: 36px;
-
-}
-.about_me{
-    background-color: bisque;
+    padding-right: 15px;
 }
